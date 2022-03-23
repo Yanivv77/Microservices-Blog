@@ -1,10 +1,13 @@
-function Header({ text, bgColor, textColor }) {
+function Header() {
   return (
-    <header>
-      <div className="container d-flex justify-content-center ">
-        <h2 className="text-white">{text}</h2>
-      </div>
-    </header>
+    <>
+      <header className="my-2">
+        <div className="container d-flex justify-content-center ">
+          <h1 className="text-white">Microservice Blog</h1>
+        </div>
+      </header>
+      <br />
+    </>
   )
 }
 
