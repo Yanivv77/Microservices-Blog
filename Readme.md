@@ -1,8 +1,8 @@
 
-### Install Dependencie
+### Install Dependencies and start all services 
 ```
+npm install
+npm start 
 
-cd client npm install
-cd comments npm install
-cd posts npm install
 ```
+do it for each service
